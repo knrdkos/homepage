@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font: normal 75% Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+#hello {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    z-index: 100;
+    color: whitesmoke;
+    font-size: large;
+}
+
+a {
+    color: whitesmoke;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background: #2c2e43 no-repeat 50% 50%;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltip-text {
+    visibility: hidden;
+    font-size: 18px;
+    width: 160px;
+    background-color: black;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    bottom: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+}
+
+.body-text{
+    font-size: 26px;
+}
+
+.header-text{
+    font-size: 38px;
+    font-weight: bold;
+}
