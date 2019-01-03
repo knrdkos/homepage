@@ -21,6 +21,7 @@ canvas {
 
 a {
     color: whitesmoke;
+    font-style:italic;
 }
 
 #particles-js {
@@ -55,11 +56,11 @@ a {
     visibility: visible;
 }
 
-.body-text{
+.body-text {
     font-size: 26px;
 }
 
-.header-text{
+.header-text {
     font-size: 38px;
     font-weight: bold;
 }
